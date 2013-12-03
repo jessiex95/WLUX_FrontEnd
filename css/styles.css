@@ -171,6 +171,55 @@ content: none;
   font-size: 10pt;
 }
 
+#verify_form{
+  position: relative;
+  height:100%;
+  width: 630px;
+  background-color: rgba(204,204,204,0.5);
+}
+
+#verify_form_tittle{
+  font-size: 15pt;
+  padding-top: 3%;
+  padding-left: 1%;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#verify_details_text{
+  margin-top: 30px;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #666666;
+  font-size: 10pt;
+  margin-left: 10px;
+}
+
+#sign_up_checkbox{
+  display: inline-block;
+  width: 30px;
+  margin-top: 30px;
+ 
+}
+
+#verify_details_form{
+  font-size: 10pt;
+  color:#666666;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#back_button_form{
+  display: inline-block;
+  margin:3%;
+}
+
+#next_button_form{
+  display: inline-block;
+  margin-left: 60px;
+}
+
+
 #right_box {
   background-color: white;
   position:absolute;
@@ -295,8 +344,8 @@ content: none;
 }
 
 #footerimg {
-  position: absolute;
-  right: 0px;
-  //bottom: 0px;
+  margin-top: 12px;
+  padding-top: -12px;
+  float: right;
 }
 
